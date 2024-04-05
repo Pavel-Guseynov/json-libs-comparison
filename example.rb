@@ -28,7 +28,7 @@ class Example
     encode_output.puts encode
     decode_output.puts Marshal.dump(decode)
 
-    # measure_performance
+    measure_performance
   end
 
   private
